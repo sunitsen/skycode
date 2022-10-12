@@ -1,0 +1,92 @@
+:root {
+  margin: 0 !important;
+  padding: 0 !important;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Color Variables for background*/
+/*------template sidebar nav----*/
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/*-------Template css styling------*/
+.template-navbar {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  z-index: 1111;
+}
+
+.template-logo img {
+  max-width: 300px;
+}
+
+.template-navbar ul {
+  margin-top: 27px;
+}
+.template-navbar ul li {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.template-sidebar span {
+  position: absolute;
+  top: 32px;
+  right: 50px;
+  bottom: 0;
+  transition: 0.5s;
+}
+
+.section {
+  background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
+
+.section:nth-child(1) {
+  background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+
+.section:nth-child(3) {
+  background-image: linear-gradient(to right top, #936bd1, #8c78d8, #8785de, #8490e2, #839be5, #819fe8, #7fa3ea, #7ea7ec, #77a6f0, #70a5f3, #68a4f7, #5fa3fb);
+}/*# sourceMappingURL=template.css.map */

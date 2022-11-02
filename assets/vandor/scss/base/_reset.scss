@@ -1,12 +1,22 @@
+@font-face {
+    font-family: 'Open Sans', sans-serif;
+    src: url(/assets/vandor/font/OpenSans-Italic-VariableFont_wdth\,wght.ttf);
+}
+
 :root {
-    margin: 0 !important;
-    padding: 0 !important;
-    box-sizing: border-box;
+    --blue: #1e90ff;
+    --white: #ffffff;
+    --red: red;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
     position: relative;
 }
 
 ul {
     list-style: none;
+    margin-bottom: 0px;
 }
 
 a {
